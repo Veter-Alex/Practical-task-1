@@ -1,0 +1,252 @@
+* {
+    margin: 0; /* Обнуляем отступы */
+    padding: 0; /* Обнуляем отступы */
+    box-sizing: border-box; /* Настройка бокса */
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Шрифт по умолчанию */
+    margin: 0; /* Обнуляем отступы */
+    padding: 0; /* Обнуляем отступы */
+    display: flex; /* Отображение элементов */
+    flex-direction: column; /* Отображение элементов в столбик */
+    overflow-x: hidden; /* скрывает прокручиваемые элементы */
+    min-height: 100vh; /* Высота всего контента */
+    background-image: url("images/background.jpg"); /* фоновое изображение */
+    background-size: cover; /* растягивает фоновое изображение */
+    background-position: center; /* позиция фонового изображения */
+    background-repeat: no-repeat; /* повторение фонового изображения */
+    background-attachment: fixed; /* фиксирует фоновое изображение */
+    color: #ffffff; /* цвет текста */
+}
+/* Шрифты */
+.web{
+    font-family: 'Press Start 2P', sans-serif; /* Шрифт для текста */
+}
+
+/* БЛОК HEADER */
+header {
+    display: flex; /* Отображение элементов */
+    flex-direction: row; /* Отображение элементов в строку */
+    flex-wrap: nowrap; /* Отображение без переноса колонок */
+    justify-content: center; /* Расположение элементов */
+    background-color: hsla(0, 0%, 20%, 0.8); /* Цвет фона */
+    border-bottom: 1px solid #ccc; /* Линия под шапкой */
+}
+/* Логотип */
+.logo {
+    float: left; /* Выравнивание по левому краю */
+    text-align: center; /* Выравнивание по центру */
+    margin: 0; /* Отступы */
+    width: 15vw; /* Ширина */
+    height: auto; /* Высота */
+    max-width: 150px; /* Максимальная ширина */
+}
+.logo img {
+    width: 100%; /* Ширина логотипа */
+    height: auto; /* Высота логотипа */
+}
+/* Название сайта */
+.site-name {
+    text-align: center; /* Выравнивание по центру */
+    margin: auto; /* Выравнивание по центру */
+    width: 85%; /* Ширина */
+}
+.site-name h1 {
+    font-size: clamp(1em, 3vw, 2.5em); /* Размер шрифта */
+    font-weight: bold; /* Толщина шрифта */
+    text-shadow: 2px 2px 4px rgba(0, 214, 0, 1); /* Тень текста */
+}
+
+/* НАВИГАЦИОННАЯ ПАНЕЛЬ NAV */
+.navbar {
+    background-color: hsla(0, 0%, 20%, 0.8); /* Цвет фона */
+}
+/* Блок списка ссылок навигационной панели */
+.navbar-nav {
+    font-size: clamp(1em, 1.8vw, 1.3em); /* Размер шрифта */
+    font-weight: bold; /* Толщина шрифта */
+    justify-content: space-between; /* Расположение элементов */
+}
+.navbar-nav li{
+    margin-right: 20px; /* Отступ справа */
+}
+.navbar-nav li:last-child{
+    margin-right: 0px; /* Убираем отступ справа */
+}
+.navbar-nav a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #00D600;
+    transition: all 0.3s ease-in-out; /* Анимация */
+}
+.navbar-nav a:hover {
+    color: #069706; /* Цвет ссылки при наведении курсора */
+}
+
+/* Контент страницы */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: justify;
+}
+
+/* Секции */
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: hsla(0, 0%, 20%, 0.8); /* Цвет фона */
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: clamp(1.2em, 3vw, 2em);
+    font-weight: bold;
+}
+
+section h3 {
+    margin-bottom: 20px;
+    font-size: clamp(1em, 2.7vw, 1.7em);
+    font-weight: bold;
+    padding: 0px 40px;
+}
+
+section p {
+    margin-bottom: 20px;
+    font-size: clamp(1em, 2.5vw, 1.5em);
+    line-height: 1.5;
+    text-indent: 40px;
+}
+
+.computers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100vw;
+    gap: 20px;
+    padding: 0px;
+}
+
+.about-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Карточки продукции */
+.card {
+    /*  display: flex; */
+    background-color: hsla(0, 0%, 20%, 0.8); /* Цвет фона */
+    flex-direction: column;
+    border-radius: 8px;
+    
+    overflow: hidden; /* скрывает полосы прокрутки */
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 1px 1px 8px 2px rgba(0, 214, 0, 0.5);
+}
+
+.card img {
+    min-width: 100px;
+    min-height: 300px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 5px;
+    box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.card-title {
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.card-text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card ul li {
+    font-size: 0.9em;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.card-price {
+    margin-top: auto;
+}
+
+.card-price p {
+    text-align: left;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.card a {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #696969;
+    border-color: #525151;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+
+
+/* Комплектующие */
+.components-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100vw;
+    gap: 20px;
+    padding: 0px;
+}
+
+#components h3 {
+    text-align: center;
+    padding-top: 40px;
+}
+
+/* Медиа запросы */
+/* Очень маленькие устройства (телефоны, 600px и ниже) */
+@media only screen and (max-width: 600px) {
+    .logo {
+        display: none;
+    }
+}
+
+/* Маленькие устройства (портретные планшеты и большие телефоны, 600px и выше) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Средние устройства (альбомные планшеты, 768px и выше) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Большие устройства (ноутбуки / настольные компьютеры, 992px и выше) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Очень большие устройства (большие ноутбуки и настольные компьютеры, 1200px и выше) */
+@media only screen and (min-width: 1200px) {
+
+}

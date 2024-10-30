@@ -1,0 +1,132 @@
+1. Максимальная Мощь (Игровая станция премиум-класса)
+Цена: от 800 000 рублей
+
+Процессор: Intel Core i9-13900K
+Охлаждение: AIO водянка NZXT Kraken Z73
+Материнская плата: ASUS ROG Maximus Z790 Hero
+Оперативная память: 64 ГБ DDR5 6000 МГц
+Видеокарта: NVIDIA GeForce RTX 4090
+Накопитель: SSD NVMe M.2 4 ТБ + HDD 8 ТБ
+Блок питания: Corsair RM1000x 1000W
+Корпус: Lian Li O11 Dynamic XL
+2. Топовый Игровой Компьютер (Высокая производительность)
+Цена: около 600 000 рублей
+
+Процессор: AMD Ryzen 9 7950X
+Кулер: Noctua NH-D15 chromax.black
+Материнка: MSI MEG X670E ACE
+Память: 32 ГБ DDR5 5600 МГц
+Графика: NVIDIA GeForce RTX 4080
+Хранилище: SSD PCIe Gen4 2 ТБ + HDD 6 ТБ
+БП: Seasonic Prime Titanium 850W
+Коробка: Phanteks Eclipse P500A
+3. Элитный Геймерский ПК (Оптимальный баланс)
+Цена: примерно 400 000 рублей
+
+CPU: Intel Core i7-13700KF
+Система охлаждения: be quiet! Dark Rock Pro 4
+Мать: Gigabyte Z690 Aorus Master
+RAM: 16 ГБ DDR4 3600 МГц
+GPU: NVIDIA GeForce RTX 4070 Ti
+Дисковая система: SSD 1 ТБ NVMe + HDD 4 TB
+Источник питания: EVGA SuperNOVA 750 G+ Gold
+Шасси: Fractal Design Define 7
+4. Геймерский Компьютер среднего уровня (Надежность и скорость)
+Цена: в районе 280 000 рублей
+
+ЦПУ: AMD Ryzen 7 7700X
+Куллер: Cooler Master Hyper 212 RGB Black Edition
+Платформа: ASRock B650 Steel Legend
+ОП: 24 ГБ DDR5 4800 МГц
+ГП: NVIDIA GeForce RTX 3060 Ti
+Хранение данных: SSD M.2 NVMe 512 ГБ + HDD 2TB
+Питание: Thermaltake Toughpower GF1 ARGB 700W
+Кожух: NZXT H510 Elite
+5. Универсал (Для игр и работы)
+Цена: порядка 180 000 рублей
+
+Проц: Intel Core i5-13600K
+Охлад: Deepcool Gammaxx GT V2
+МП: ASUS PRIME Z690-P D4
+ОЗУ: 12 ГБ DDR4 3200 МГц
+Видео: NVIDIA GeForce GTX 1660 SUPER
+Жесткий диск: SSD SATA III 256 ГБ + HDD 1TB
+Блок питания: Corsair CX550M Bronze
+Корпус: Cooler Master MasterBox Q300L
+6. Мощный мультимедийный центр (Сбалансированный вариант)
+Цена: около 150 000 рублей
+
+Процессор: AMD Ryzen 5 7600X
+Кулер: Arctic Freezer 34 eSports Duo
+Материнская плата: MSI B550-A PRO
+Память: 20 ГБ DDR4 2666 МГц
+Графический адаптер: AMD Radeon RX 6600 XT
+Накопители: SSD NVMe M.2 250 ГБ + HDD 2 ТБ
+БП: Be Quiet! System Power 9 600W
+Коробка: Fractal Meshify C TG
+7. Компактный и мощный (Мини-ПК)
+Цена: примерно 90 000 рублей
+
+CPU: Intel Core i3-12100F
+Сист. охл.: Stock cooler
+Мать: ASROCK H610M-HDV/M.2
+RAM: 8 ГБ DDR4 2400 МГц
+GPU: Интегрированная графика Intel UHD Graphics 730
+Хранилище: SSD 120 ГБ + HDD 500 ГБ
+Источник питания: EVGA BR 450W
+Шасси: SilverStone DS350B
+8. Рабочая лошадка (Для офиса и учебы)
+Цена: в пределах 70 000 рублей
+
+ЦПУ: AMD Athlon 200GE
+Куллер: Wraith Stealth
+Платформа: ASRock A320M-HDVP
+ОП: 8 ГБ DDR4 2133 МГц
+ГП: Интегрированное графическое ядро Vega 3
+Хранение данных: SSD M.2 SATA 128 ГБ + HDD 1ТБ
+Питание: Antec VP450P Plus 450 Вт
+Кожух: Deepcool MATREXX 30
+9. Экономичный игровой ПК (Минимум затрат)
+Цена: до 50 000 рублей
+
+Проц: Intel Pentium Gold G6400
+Охлад: Boxed cooler
+МП: ASUS PRIME H410M-K
+ОЗУ: 8ГБ DDR4 1600 МГц
+Видео: NVIDIA GeForce GT 1030
+Жесткий диск: SSD SATA III 60 ГБ + HDD 1TB
+Блок питания: Thermaltake Smart SE 430W
+Корпус: Zalman Z3 Plus
+10. Базовый офисный ПК (Доступное решение)
+Цена: около 40 000 рублей
+
+Процессор: AMD Ryzen 3 2200G
+Кулер: Box cooler
+Материнская плата: ASRоck AB350M-HДV
+Память: 4 ГБ DDR4 1866 МГц
+Графический адаптер: Интегрировано (Vega 8)
+Накопители: HDD 1 ТБ
+БП: EVGA 400 N1 400W
+Коробка: DeepCool Tesseract SW
+11. Простой домашний ПК (Начальный уровень)
+Цена: не более 35 000 рублей
+
+Центральный процессор: Intel Celeron G4900
+Система охлаждения: Box fan
+Материальная основа: ASrock H110M-HDS
+Операционная память: 4ГБ DDR4 1333 Мгц
+Видюха: Интел HD Graphics 610
+Место хранения: HDD 320 ГБ
+Электропитание: Aerocool VX-450 450Вт
+Каркас: InWin BP655
+12. Бюджетный ПК для базовых задач (Минимальные требования)
+Цена: менее 25 000 рублей
+
+CPU: AMD Sempron 2650
+Сист. охл.: Stock cooler
+Мать: Biostar A68N-2100
+RAM: 2 ГБ DDR3 1066 МГц
+GPU: Интеграция Radeon HD 8240
+Хранилище: HDD 80 ГБ
+Источник питания: FSP Group ATX-300PN 300W
+Шасси: MicroATX корпус без бренда
