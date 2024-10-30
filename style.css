@@ -131,8 +131,15 @@ section p {
 }
 
 .about-image {
+    display: block;
+    margin: 0 auto; /* Добавить margin для центрирования */
     max-width: 100%;
     height: auto;
+    object-fit: cover;
+    padding: 5px;
+    box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 /* Карточки продукции */
